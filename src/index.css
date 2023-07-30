@@ -1,0 +1,193 @@
+
+body{
+  background: url(./assets/img/fodo4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#carru {
+  width: 96%;
+  height: 350px;
+  display: relative;
+  left: 2%;
+  top: 50px;
+}
+
+.buscar{
+  padding: 0px;
+  top: 400px;
+  right: 805px;
+}
+
+.buscar input{
+  position: relative;
+  width: 340px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: black;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  top: 35px;
+  right: -35px;
+}
+
+
+.btn{
+  position: relative;
+  top: 30px;
+  right: 25px;
+  background: rgb(247, 144, 10);
+  width: 5%;
+  height: 65px;
+  line-height: 55px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#boto{
+  width: 100px;
+  height: 40px;
+  display: relative;
+}
+
+#boto1{
+  width: 100px;
+  height: 50px;
+  display: relative;
+}
+
+#botun{
+  top: 100px;
+}
+#navbar{
+  padding-top: 100px;
+}
+
+#button{
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  background-color: #000000bd;
+  border-radius: 10px;
+  color: rgb(247, 144, 10);
+  text-decoration: none;
+  padding: 5px 30px;
+  margin-right: 20px;
+  border: 2px solid rgb(252, 148, 12);
+}
+
+#button:hover{
+  background-color: #000000;
+  border: 2px #080808;
+  color: rgb(255, 255, 255);
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  max-width: 150%;
+  padding-top: 25px;
+}
+.imagenR{
+  width: 2000px;
+}
+.card{
+  width: 20%;
+  margin: 30px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffffb7;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2) ;
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+  transform: translateY(-4%);
+}
+
+.card img{
+  width: 70%;
+  height: 170px;
+  padding: 10px;
+  transform: translateX(0%);
+}
+
+a{
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: #363232;
+}
+
+
+
+.card .contenido button{
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  margin-top: -1px;
+  color: #0b0c0c;
+  border: px solid #000000;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.card .contenido button:hover{
+  background: #000000;
+  color: #fff;
+}
+
+.Info{
+  width: 30%;
+  margin: 40px;
+  border-radius: 6px;
+  background: #ffffffb7;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2) ;
+  cursor: default;
+  padding: 20px;
+  transform: translateY(-80%);
+}
+
+#tecladorosa{
+  padding: 20px;
+  transform: translateX(80%);
+}
+
+
+.resultados {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Ajusta el número de columnas según tus necesidades */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.producto h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.producto p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.producto img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
