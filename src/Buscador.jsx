@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import App from './App';
 import Navbar from './Navbar';
 import Card from './Card';
@@ -34,9 +34,14 @@ const Buscador = () => {
       setSearchResults([]);
     }
   };
-
+  
   return (
     <div>
+      <Link to="/"><img className= "home"src='src\assets\img\boton-de-inicioAzulClaro.png'></img></Link>
+      
+      <div>
+        <Outlet />
+      </div>
       <div className="buscar">
         <input
           type="text"
@@ -62,7 +67,7 @@ const Buscador = () => {
             <div key={result.id} className="resultado">
               <div className="container">
                 {/* Utiliza el componente Link para enlazar al detalle del producto */}
-                <Link to={`/productos/${result.id}`}>
+                <Link to={`/producto/${result.id}`}>
                   <div className="card" style={{ width: '300px', height: '300px' }}>
                     <figure>
                       <img src={result.imagen} alt={result.nombre} />

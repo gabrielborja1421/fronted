@@ -97,6 +97,13 @@ body{
 .imagenR{
   width: 2000px;
 }
+.home{
+  width: 5%;
+  position: absolute;
+  left: 94%;
+  padding-top: 1%;
+
+}
 .card{
   width: 20%;
   margin: 30px;
